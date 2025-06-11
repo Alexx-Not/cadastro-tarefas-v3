@@ -1,16 +1,45 @@
+// const express = require("express");
+// const app = express();
+// const cors = require("cors");
+// const tarefaRoutes = require("./routes/tarefaRoutes");
+// const sequelize = require("./database/db");
+// const Tarefa = require("./models/Tarefa");
+
+// app.use(cors());
+// app.use(express.json());
+// app.use(tarefaRoutes);
+
+// sequelize.sync().then(() => {
+//   app.listen(3000, () => {
+//     console.log("Servidor rodando em http://localhost:3000");
+//   });
+// });
+
 const express = require("express");
-const app = express();
-const cors = require("cors");
+const cors = require("cors")
 const tarefaRoutes = require("./routes/tarefaRoutes");
 const sequelize = require("./database/db");
-const Tarefa = require("./models/Tarefa");
+const { Sequelize } = require("sequelize");
+const app = express();
+
+//MIDDLEWARE
 
 app.use(cors());
 app.use(express.json());
-app.use(tarefaRoutes);
 
-sequelize.sync().then(() => {
-  app.listen(3000, () => {
-    console.log("Servidor rodando em http://localhost:3000");
-  });
+//ROTAS
+
+app.use("/tarefas", tarefaRoutes);
+
+//SINCRONIZAÇÃO COM O BANCO E INÍCIO DO SERVIDOR
+
+Sequelize.afterSync()
+.then(()=>{
+  console.log("Banco de dados sincronizado com sucesso")
+app.listen(3000,()=>{
+  console.log("Servidor rodando em http://localhost:3000")
+});
+})
+.catch((error)=>{
+  console.log("Erro ao conectar ao banco de dados:",erro)
 });
