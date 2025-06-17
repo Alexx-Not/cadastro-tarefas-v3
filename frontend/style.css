@@ -1,54 +1,87 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #eef2f7;
-  }
-  
-  .container {
-    max-width: 600px;
-    margin: 40px auto;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
-  h1, h3 {
-    text-align: center;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-  
-  input, button {
-    padding: 10px;
-    font-size: 16px;
-  }
-  
-  button {
-    background-color: #2563eb;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  th, td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: center;
-  }
-  
-  th {
-    background-color: #2563eb;
-    color: white;
-  }
-  
+  background-image: url('https://dcdn-us.mitiendanube.com/stores/003/365/626/products/design-sem-nome-6-46d73a68492ac714b917199631449530-1024-1024.png');
+      background-size: cover;        
+      background-position: center;   
+      background-repeat: no-repeat;  
+      font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+
+
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 600px;
+  margin: 60px auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(4px);
+}
+
+h1, h3 {
+  text-align: center;
+  color: #1f2937;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #2563eb;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #04bcb5;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #04bcb5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color:#04bcb5;
+  color: white;
+}
+
+td {
+  background-color: #f9f9f9;
+}
