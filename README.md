@@ -21,6 +21,7 @@ HTML + CSS – criação e estilização das páginas da aplicação
 
 --------------------------------------------------------------
 📸 Captura de tela
+![Captura de tela 2025-06-24 215311](https://github.com/user-attachments/assets/aedc68b8-6106-42a6-a589-028032d32fee)
 
 ---------------------------------------------------------------
 🧑‍💻 Como usar
