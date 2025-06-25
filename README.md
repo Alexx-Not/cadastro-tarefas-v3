@@ -35,19 +35,17 @@ HTML + CSS – Interface limpa, responsiva e sem frameworks pesados
 ![Captura de tela 2025-06-24 215311](https://github.com/user-attachments/assets/aedc68b8-6106-42a6-a589-028032d32fee)
 
 ---------------------------------------------------------------
-🧑‍💻 Como usar
+📥 Clone o repositório com git clone https://github.com/seu-usuario/seu-repositorio.git e entre na pasta do projeto com cd seu-repositorio.
 
-bash
+📦 Instale as dependências do projeto executando npm install no terminal.
 
-Copiar
+🛠️ Configure o banco de dados MySQL. Crie um banco (ex: tarefas_db) e ajuste as credenciais no arquivo .env ou config/config.json, incluindo informações como DB_HOST, DB_USER, DB_PASSWORD e DB_NAME.
 
-Editar
+🧱 Caso esteja utilizando Sequelize CLI, rode as migrações com npx sequelize db:migrate para criar as tabelas no banco de dados.
 
+🚀 Inicie o servidor com node backend/server.js.
 
-cd seurepositorio
-npm install
-node backend/server.js
-Após executar o comando acima, o servidor estará rodando localmente e você poderá acessar a aplicação através do navegador.
+🌐 Após isso, abra seu navegador e acesse a aplicação em: http://localhost:3000
 
 
 --------------------------------------------------------------------------------------------------------------------------
