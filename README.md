@@ -1,23 +1,34 @@
 🚀 Funcionalidades
-✅ Cadastro de novas tarefas com título e descrição
+✅ Cadastro de Tarefas
+Permite criar novas tarefas com título e descrição.
 
-✅ Integração completa com banco de dados MySQL
+✅ Integração com MySQL
+Todos os dados são armazenados e gerenciados via banco de dados MySQL.
 
-✅ Interface HTML responsiva e de fácil uso
+✅ Interface Responsiva
+Layout em HTML + CSS que se adapta bem a diferentes dispositivos.
 
-✅ Controle de status das tarefas (pendente ou concluída)
+✅ Controle de Status
+Marque tarefas como pendentes ou concluídas facilmente.
+
+✅ Atualização e Remoção
+Edite ou exclua tarefas conforme sua necessidade.
+
+✅ Feedback Visual em Tempo Real
+Alertas para ações como "tarefa adicionada" ou "removida com sucesso".
 
 -----------------------------------------------------------
-🛠️ Tecnologias utilizadas
-Node.js – ambiente de execução JavaScript no servidor
+🛠️ Tecnologias Utilizadas
+Node.js – Ambiente de execução JavaScript no servidor
 
-Express – framework web minimalista para Node.js
+Express – Framework web rápido e minimalista
 
-Sequelize – ORM para modelagem e acesso ao banco de dados
+Sequelize – ORM para abstração e manipulação do banco de dados
 
-MySQL – sistema de gerenciamento de banco de dados relacional
+MySQL – Banco de dados relacional para armazenamento persistente
 
-HTML + CSS – criação e estilização das páginas da aplicação
+HTML + CSS – Interface limpa, responsiva e sem frameworks pesados
+
 
 --------------------------------------------------------------
 📸 Captura de tela
@@ -41,12 +52,16 @@ Após executar o comando acima, o servidor estará rodando localmente e você po
 
 --------------------------------------------------------------------------------------------------------------------------
 📚 Aprendizados
-Durante o desenvolvimento deste projeto, foi possível compreender e aplicar conceitos importantes como:
+Durante o desenvolvimento, foram aplicados diversos conceitos importantes:
 
-Migração de um backend baseado em SQLite para MySQL
+🔄 Migração de SQLite para MySQL
 
-Criação e associação de modelos utilizando o Sequelize
+🔗 Relacionamento entre modelos com Sequelize
 
-Estruturação de rotas e controle de dados com Express
+🌐 Criação de rotas RESTful com Express
 
-Construção de uma interface responsiva utilizando apenas HTML e CSS
+🖥️ Desenvolvimento de UI responsiva com HTML + CSS
+
+🧩 Separação de responsabilidades entre camadas (MVC)
+
+🔍 Boas práticas de organização de código e estrutura de pastas
