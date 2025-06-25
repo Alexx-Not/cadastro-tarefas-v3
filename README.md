@@ -28,7 +28,7 @@ HTML + CSS – criação e estilização das páginas da aplicação
 bash
 Copiar
 Editar
-git clone https://github.com/seuusuario/seurepositorio.git
+
 cd seurepositorio
 npm install
 node backend/server.js
