@@ -25,9 +25,13 @@ HTML + CSS – criação e estilização das páginas da aplicação
 
 ---------------------------------------------------------------
 🧑‍💻 Como usar
+
 bash
+
 Copiar
+
 Editar
+
 
 cd seurepositorio
 npm install
