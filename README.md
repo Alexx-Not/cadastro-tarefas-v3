@@ -24,15 +24,7 @@ HTML + CSS – criação e estilização das páginas da aplicação
 
 ---------------------------------------------------------------
 
-🧑‍💻 Como usar
-bash
-Copiar
-Editar
-git clone https://github.com/seuusuario/seurepositorio.git
-cd seurepositorio
-npm install
-node backend/server.js
-Após executar o comando acima, o servidor estará rodando localmente e você poderá acessar a aplicação através do navegador.
+
 
 --------------------------------------------------------------------------------------------------------------------------
 📚 Aprendizados
